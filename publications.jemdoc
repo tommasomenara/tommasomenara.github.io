@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter
+== Publications
+
+== Journal Papers
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"Stability Conditions for Cluster Synchronization in Networks of Kuramoto Oscillators"\n
+/IEEE Transactions on Control of Network Systems/. NOTE: Submitted ~ \M ~ \[[https://arxiv.org/abs/1806.06083 ArXiv]\]
+. J. Stiso, A. N. Khambhati, *T. Menara*, A. E. Kahn, J. M. Stein, S. R. Das, R. Gorniak,
+J. Tracy, B. Litt, K. A. Davis, F. Pasqualetti, T. Lucas, D. S. Bassett\n
+"White Matter Network Architecture Guides Direct Electrical Stimulation Through Optimal State Transitions"\n
+NOTE: Submitted ~ \M ~ \[[https://arxiv.org/abs/1805.01260 ArXiv]\]
+. *T. Menara*, D. S. Bassett, F. Pasqualetti\n
+ "Structural Controllability of Symmetric Networks"\n
+ /IEEE Transactions on Automatic Control/. NOTE: In Press
+
+
+== Conference Papers
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"Exact and Approximate Stability Conditions for Cluster Synchronization of Kuramoto Oscillators"\n
+/IEEE American Control Conference/, Philadelphia, USA, 2019. NOTE: Submitted
+. *T. Menara*, V. Katewa, D. S. Bassett, F. Pasqualetti\n
+"The Structured Controllability Radius of Symmetric (Brain) Networks"\n
+/IEEE American Control Conference/, Milwaukee, USA, 2018 ~ \M ~ \[[https://ieeexplore.ieee.org/document/8431724 online]\]
+. *T. Menara*, G. Bianchin, M. Innocenti, F. Pasqualetti\n
+"On the Number of Strongly Structurally Controllable Networks"\n
+/IEEE American Control Conference/, Seattle, USA, 2017 ~ \M ~ \[[https://ieeexplore.ieee.org/document/7962976 online]\]
+. M. Laurino, *T. Menara*, A. Stella, M. Betta, A. Landi\n
+"Procoagulant control strategies for the human blood clotting process"\n
+/IEEE Conference of the Engineering in Medicine and Biology Society/, Milan, Italy, 2015 ~ \M ~ \[[https://ieeexplore.ieee.org/abstract/document/7319380 online]\]
+
+== Master's Thesis
+. *T. Menara*\n
+"A Novel Characterization of Strong Structural Controllability: Sparsity Conditions and Control Paths"\n
+/Department of Information Engineering/, University of Pisa, Italy, 2016.
