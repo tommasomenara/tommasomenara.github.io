@@ -1,0 +1,27 @@
+# jemdoc: menu{MENU}{bio.html}, nofooter
+= Short Bio
+
+~~~
+{}{img_left}{UCR_logo.png}{UCR_logo}{100}{100}{}
+=== 2016 -- to-date PhD Student
+
+I am a PhD student in the Department of Mechanical Engineering at [https://www.ucr.edu University of California Riverside] under the supervision of [http://www.fabiopas.it Prof. Fabio Pasqualetti]
+~~~
+\n
+~~~
+{}{img_left}{unipi_logo.jpg}{Unipi_logo}{110}{110}{}
+=== 2013 -- 2016 Laurea Magistrale (M.Sc. equivalent)
+
+I completed a Laurea Magistrale degree (M.Sc. equivalent) in Robotics and Control Engineering at [https://www.unipi.it University of Pisa], Italy
+~~~
+\n
+~~~
+{}{img_left}{unipd_logo.png}{Unipd_logo}{100}{100}{}
+=== 2010 -- 2013 Laurea (B.Sc. equivalent)
+
+I completed a Laurea degree (B.Sc. equivalent) in Mechatronics Engineering at [https://www.unipd.it University of Padova], Italy
+~~~
+\n
+\n
+\n
+CV available upon request.
