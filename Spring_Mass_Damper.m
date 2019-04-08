@@ -51,8 +51,7 @@ legend('b = 0.2','b = 0.4')
 
 %% integrate system
 
-t = 0:0.1:60;
-u = F*ones(length(t),1);
-
+t = 0:0.1:60; % time vector
+u = F*ones(length(t),1); % input vector
 figure(4)
-lsim(sys1,u,t)
+lsim(sys1,u,t) % integrate linear system
