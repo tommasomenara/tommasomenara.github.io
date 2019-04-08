@@ -23,7 +23,7 @@ sys1 = ss(A,B,C,D) % state-space representation of the system
 
 [b a] = ss2tf(A,B,C,D) % state-space to transfer function representation
 
-%% Impulse, unit and step response
+%% Impulse and step response
 
 figure(1);
 step(sys1);
@@ -46,7 +46,7 @@ D = [0]; % feedforward matrix
 sys2 = ss(A,B,C,D) % state-space representation of the system
 
 figure(3)
-step(sys1,'b',sys2,'r')
+step(sys1,'b', sys2,'r')
 legend('b = 0.2','b = 0.4')
 
 %% integrate system
