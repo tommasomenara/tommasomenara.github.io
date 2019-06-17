@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Optima, serif; % Georgia
 	padding-bottom: 8px;
 	margin: 0;
 }
@@ -39,6 +39,8 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
+	min-width: 800px;
+	width: 800px;
 }
 
 #layout-menu a {
@@ -65,11 +67,11 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
+	color: #235DAB; % #022b6d
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #527bbd;
+	color: #235DAB; % #527bbd
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -117,7 +119,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #235DAB; % #527bbd
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -189,7 +191,7 @@ dl {
 }
 
 dd {
-	color: #222222;
+	color: #235DAB; % #222222
 }
 
 dd > *:first-child {
