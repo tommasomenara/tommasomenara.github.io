@@ -46,9 +46,9 @@ Riverside, CA, USA, 92521 \n
 ~~~
 {}{raw}
 <table class="imgtable"><tr><td><p>
-<a href="https://orcid.org/0000-0002-5523-2170" target=&ldquo;blank&rdquo;><img src="Figures/orcid-icon.png" alt="orcid-icon" width="30" height="30" /></a>
-<a href="https://scholar.google.com/citations?user=4EEpO9gAAAAJ&hl=en" target=&ldquo;blank&rdquo;><img src="Figures/google-icon.png" alt="google-icon" width="30" height="30" longdesc="https://scholar.google.com/citations?user=4EEpO9gAAAAJ&hl=en" /></a> 
-<a href="https://www.researchgate.net/profile/Tommaso_Menara2" target=&ldquo;blank&rdquo;><img src="Figures/researchgate.png" alt="researchgate-icon" width="30" height="30" /></a>
-<a href="https://www.linkedin.com/in/tommasomenara/" target=&ldquo;blank&rdquo;><img src="Figures/linkedin-icon.png" alt="linkedin-icon" width="30" height="30" /></a>
+<a href="https://orcid.org/0000-0002-5523-2170" target=&ldquo;blank&rdquo;><img src="./Figures/orcid-icon.png" alt="orcid-icon" width="30" height="30" /></a>
+<a href="https://scholar.google.com/citations?user=4EEpO9gAAAAJ&hl=en" target=&ldquo;blank&rdquo;><img src="./Figures/google-icon.png" alt="google-icon" width="30" height="30" longdesc="https://scholar.google.com/citations?user=4EEpO9gAAAAJ&hl=en" /></a> 
+<a href="https://www.researchgate.net/profile/Tommaso_Menara2" target=&ldquo;blank&rdquo;><img src="./Figures/researchgate.png" alt="researchgate-icon" width="30" height="30" /></a>
+<a href="https://www.linkedin.com/in/tommasomenara/" target=&ldquo;blank&rdquo;><img src="./Figures/linkedin-icon.png" alt="linkedin-icon" width="30" height="30" /></a>
 </p></td></tr></table> 
 ~~~
