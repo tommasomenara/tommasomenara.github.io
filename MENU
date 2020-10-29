@@ -1,7 +1,9 @@
-MENU
+Personal
 	Home				[index.html]
 	About Me			[bio.html]
-	Research			[research.html]
-	Teaching			[teaching.html]
+Research
+	Research Topics		[research.html]
 	Publications		[publications.html]
-	
+	Software			[software.html]
+Teaching Resources	
+	Teaching			[teaching.html]
