@@ -2,13 +2,16 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Research</title>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" href="./images/icon.png">
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--- <title>Research</title> --->
+<title>jemdoc + new design</title>
 <!-- MathJax -->
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
 </script>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -18,9 +21,26 @@ MathJax.Hub.Config({
 <!-- End MathJax -->
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
+<div id="main-container">
+<div id="header-container">
+<div id="header">
+<div id="header-icon-text-container">
+<div id="header-icon-container" >
+<a href="index.html"><img src="./images/profile2.png" alt="" style="width: 100%; height: 100%; position: center; padding:0px; margin: 0px;"></a>
+</div>
+<div id="header-text-container">
+<a href="index.html">jemdoc + new design</a>
+</div>
+</div>
+<div id="main">
+<button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</div>
+</div>
+<div id="layout">
+<div id="layout-menu-container">
+<div id="layout-menu">
+<div class="menu-item"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></div>
 <div class="menu-category">Personal</div>
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="bio.html">About&nbsp;Me</a></div>
@@ -30,55 +50,77 @@ MathJax.Hub.Config({
 <div class="menu-item"><a href="software.html">Software</a></div>
 <div class="menu-category">Teaching Resources</div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
-</td>
-<td id="layout-content">
+</div> <!-- <div id="layout-menu"> -->
+</div> <!-- <div id="layout-menu-container"> -->
+<div id="layout-content-container">
+<div id="layout-content">
 <div id="toptitle">
 <h1>Research</h1>
 </div>
 <h2>Synchronization in Networks of Oscillators</h2>
-<table class="imgtable"><tr><td>
-<img src="Figures/Brain_Oscillators.png" alt="Brain Network Oscillators" width="365px" height="273px" />&nbsp;</td>
-<td align="left"><p>Synchronous neural activity enables a multitude of functions in the brain. Examples include motor coordination, sleep spindles, circadian rhythms, and large scale integration of sensori stimuli. Furthermore, synchronization can be used as a biomarker in multiple neurological disorders, and abnormal or decreased synchronized activity has been linked to neurological damage or cognitive decline due to aging. Yet, a complete characterization of synchronization phenomena in the brain is far from complete. By studying the brain as a complex dynamical system of interconnected neural populations, we have contributed towards the theoretical understanding of the synchronization of interconnected brain regions. Specifically, by abstracting oscillatory neural populations as nonlinear oscillators, we have revealed the mechanisms that enable a variety of synchronization phenomena in groups of oscillators.
+<div id="text-img-container"><div id="img-container">
+<img src="Figures/Brain_Oscillators.png" alt="Brain Network Oscillators" width="365px" height="273px" /></div>
+<div id="text-container"><p>Synchronous neural activity enables a multitude of functions in the brain. Examples include motor coordination, sleep spindles, circadian rhythms, and large scale integration of sensori stimuli. Furthermore, synchronization can be used as a biomarker in multiple neurological disorders, and abnormal or decreased synchronized activity has been linked to neurological damage or cognitive decline due to aging. Yet, a complete characterization of synchronization phenomena in the brain is far from complete. By studying the brain as a complex dynamical system of interconnected neural populations, we have contributed towards the theoretical understanding of the synchronization of interconnected brain regions. Specifically, by abstracting oscillatory neural populations as nonlinear oscillators, we have revealed the mechanisms that enable a variety of synchronization phenomena in groups of oscillators.
 <br />
 For more details see, for instance, our works <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8663340" target=&ldquo;blank&rdquo;>Stability Conditions for Cluster Synchronization in Networks of Heterogeneous Kuramoto Oscillators</a>, <a href="https://ieeexplore.ieee.org/document/9029223" target=&ldquo;blank&rdquo;>A Framework to Control Functional Connectivity in the Human Brain</a>, <a href="https://ieeexplore.ieee.org/document/8814837" target=&ldquo;blank&rdquo;>Exact and Approximate Stability Conditions for Cluster Synchronization of Kuramoto Oscillators</a>, <a href="https://ieeexplore.ieee.org/document/9435762" target=&ldquo;blank&rdquo;>Relay Interactions Enable Remote Synchronization in Networks of Phase Oscillators</a> or the following 3-minute presentation:
 <br /></p>
-</td></tr></table>
+</div></div>
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f-ND6pBmMIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <p><br />
 <br /></p>
 <h2>Data-driven Models to Infer Brain Network Dynamics Fingerprints</h2>
-<table class="imgtable"><tr><td>
-<img src="Figures/HMM.png" alt="Hidden Markov Model" width="260px" height="380px" />&nbsp;</td>
-<td align="left"><p>Large multi-site neuroimaging datasets have significantly advanced our quest to understand brain-behavior relationships and to develop biomarkers of psychiatric and neurodegenerative disorders. Yet, such data collections come at a cost, as the inevitable differences across samples may lead to biased or erroneous conclusions. In this line of work, we aim to validate the estimation of individual brain network dynamics fingerprints and appraise sources of variability in large resting-state fMRI datasets by providing a novel point of view based on data-driven dynamical models. Specifically, we utilize hidden Markov models to examine how diverse scanning factors in multi-site fMRI recordings affect our ability to infer the brain's spatiotemporal wandering between networks of activity.
+<div id="text-img-container"><div id="img-container">
+<img src="Figures/HMM.png" alt="Hidden Markov Model" width="260px" height="380px" /></div>
+<div id="text-container"><p>Large multi-site neuroimaging datasets have significantly advanced our quest to understand brain-behavior relationships and to develop biomarkers of psychiatric and neurodegenerative disorders. Yet, such data collections come at a cost, as the inevitable differences across samples may lead to biased or erroneous conclusions. In this line of work, we aim to validate the estimation of individual brain network dynamics fingerprints and appraise sources of variability in large resting-state fMRI datasets by providing a novel point of view based on data-driven dynamical models. Specifically, we utilize hidden Markov models to examine how diverse scanning factors in multi-site fMRI recordings affect our ability to infer the brain's spatiotemporal wandering between networks of activity.
 <br />
 For more details see our work <a href="https://doi.org/10.1088/1741-2552/abd684" target=&ldquo;blank&rdquo;>Brain Network Dynamics Fingerprints are Resilient to Data Heterogeneity</a>, or the following video abstract:
 <br /></p>
-</td></tr></table>
+</div></div>
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AplxcEKfPDw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 <p><br />
 <br /></p>
 <h2>Optimal Control Theory Unveils the Working Principles of Memory</h2>
-<table class="imgtable"><tr><td>
-<img src="Figures/NCT-NEURO.png" alt="Optimal Control Brain" width="365px" height="270px" />&nbsp;</td>
-<td align="left"><p>The brain can be studied as a network system in which nodes represent brain regions and the links connecting these regions are defined by white matter tracts. We use optimal control theory &ndash; finding control laws for a given system such that a certain optimality criterion is achieved &ndash; to predict and analyze multiple memory states from an energetic point of view. Our work has quantified the role that the anatomical organization of the brain plays in constraining its dynamical response to external current stimulation. As a proof of concept, we have tested which brain states and structural properties will efficiently improve memory encoding when stimulated. Furthermore, we have also found that subjects affected by schizophrenia show diminished stability of minimum-energy working memory states.
+<div id="text-img-container"><div id="img-container">
+<img src="Figures/NCT-NEURO.png" alt="Optimal Control Brain" width="365px" height="270px" /></div>
+<div id="text-container"><p>The brain can be studied as a network system in which nodes represent brain regions and the links connecting these regions are defined by white matter tracts. We use optimal control theory &ndash; finding control laws for a given system such that a certain optimality criterion is achieved &ndash; to predict and analyze multiple memory states from an energetic point of view. Our work has quantified the role that the anatomical organization of the brain plays in constraining its dynamical response to external current stimulation. As a proof of concept, we have tested which brain states and structural properties will efficiently improve memory encoding when stimulated. Furthermore, we have also found that subjects affected by schizophrenia show diminished stability of minimum-energy working memory states.
 <br />
 Related publications: <a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31041-1" target=&ldquo;blank&rdquo;>White Matter Network Architecture Guides Direct Electrical Stimulation Through Optimal State Transitions</a>, <a href="https://www.nature.com/articles/s41467-021-23694-9" target=&ldquo;blank&rdquo;>Brain network dynamics during working memory are modulated by dopamine and diminished in schizophrenia</a></p>
-</td></tr></table>
+</div></div>
 <p><br />
 <br /></p>
 <h2>Network Control Theory Meets Neuroscience</h2>
-<table class="imgtable"><tr><td>
-<img src="Figures/BNV_final_with_brain_v3_png.png" alt="Brain Network Control" width="320px" height="205px" />&nbsp;</td>
-<td align="left"><p>The intersection between control theory and the study of the brain as a network system has the potential to overhaul our understanding of the brain dynamical wandering between different states. The possibility to steer the state of a network system through endogenous or exogenous stimuli &ndash; controllability &ndash; is determined by the network organization. By employing control-theoretic tools, we have (i) provided prescriptive conditions for structural brain networks to be theoretically controllable, (ii) characterized the features that enable the simplification of nonlinear network systems, and (iii) demonstrated that structural brain networks possess distinct controllability profiles with respect to random networks. These methods and tools will lay the ground to the development of novel treatments and stimulation schemes to treat multiple neurological disorders.
+<div id="text-img-container"><div id="img-container">
+<img src="Figures/BNV_final_with_brain_v3_png.png" alt="Brain Network Control" width="320px" height="205px" /></div>
+<div id="text-container"><p>The intersection between control theory and the study of the brain as a network system has the potential to overhaul our understanding of the brain dynamical wandering between different states. The possibility to steer the state of a network system through endogenous or exogenous stimuli &ndash; controllability &ndash; is determined by the network organization. By employing control-theoretic tools, we have (i) provided prescriptive conditions for structural brain networks to be theoretically controllable, (ii) characterized the features that enable the simplification of nonlinear network systems, and (iii) demonstrated that structural brain networks possess distinct controllability profiles with respect to random networks. These methods and tools will lay the ground to the development of novel treatments and stimulation schemes to treat multiple neurological disorders.
 <br />
 Related publications: <a href="https://ieeexplore.ieee.org/document/9039601" target=&ldquo;blank&rdquo;>Conditions for Feedback Linearization of Network Systems</a>, <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8533416" target=&ldquo;blank&rdquo;>Structural Controllability of Symmetric Networks</a>, <a href="https://ieeexplore.ieee.org/document/8431724" target=&ldquo;blank&rdquo;>The Structured Controllability Radius of Symmetric (Brain) Networks</a></p>
-</td></tr></table>
-</td>
-</tr>
-</table>
+</div></div>
+</div> <!-- <div id="layout-content-container"> -->
+</div> <!--- <div id="layout"> --->
+</div> <!--- <div id="main-container"> --->
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
 </body>
 </html>
