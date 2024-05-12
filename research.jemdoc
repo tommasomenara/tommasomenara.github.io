@@ -1,0 +1,94 @@
+# jemdoc: menu{MENU}{research.html}, nofooter
+== Research
+
+== Synchronization in Networks of Oscillators
+~~~
+{}{img_left}{Figures/Brain_Oscillators.png}{Brain Network Oscillators}{365}{273}{}
+Synchronous neural activity enables a multitude of functions in the brain. Examples include motor coordination, sleep spindles, circadian rhythms, and large scale integration of sensori stimuli. Furthermore, synchronization can be used as a biomarker in multiple neurological disorders, and abnormal or decreased synchronized activity has been linked to neurological damage or cognitive decline due to aging. Yet, a complete characterization of synchronization phenomena in the brain is far from complete. By studying the brain as a complex dynamical system of interconnected neural populations, we contributed towards the theoretical understanding of the synchronization of interconnected brain regions. Specifically, by abstracting oscillatory neural populations as nonlinear oscillators, we revealed the mechanisms that enable a variety of synchronization phenomena in groups of oscillators.
+\n
+For more details see, for instance:
+. Our Nature Communications paper [https://doi.org/10.1038/s41467-022-31733-2 Functional Control of Oscillator Networks]
+. The works [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8663340 Stability Conditions for Cluster Synchronization in Networks of Heterogeneous Kuramoto Oscillators], [https://ieeexplore.ieee.org/document/9029223 A Framework to Control Functional Connectivity in the Human Brain], [https://ieeexplore.ieee.org/document/8814837 Exact and Approximate Stability Conditions for Cluster Synchronization of Kuramoto Oscillators], [https://ieeexplore.ieee.org/document/9435762 Relay Interactions Enable Remote Synchronization in Networks of Phase Oscillators] 
+\n
+~~~
+\n
+\n
+
+== Data-driven Models to Infer Brain Network Dynamics Fingerprints
+~~~
+{}{img_left}{Figures/HMM.png}{Hidden Markov Model}{260}{380}{}
+Large multi-site neuroimaging datasets have significantly advanced our quest to understand brain-behavior relationships and to develop biomarkers of psychiatric and neurodegenerative disorders. Yet, such data collections come at a cost, as the inevitable differences across samples may lead to biased or erroneous conclusions. In this line of work, we aimed to validate the estimation of individual brain network dynamics fingerprints and appraised sources of variability in large resting-state fMRI datasets by providing a novel point of view based on data-driven dynamical models. Specifically, we utilized hidden Markov models to examine how diverse scanning factors in multi-site fMRI recordings affect our ability to infer the brain's spatiotemporal wandering between networks of activity.
+\n
+For more details see our work [https://doi.org/10.1088/1741-2552/abd684 Brain Network Dynamics Fingerprints are Resilient to Data Heterogeneity]
+\n
+~~~
+\n
+\n
+
+== Optimal Control Theory Unveils the Working Principles of Memory
+~~~
+{}{img_left}{Figures/NCT-NEURO.png}{Optimal Control Brain}{365}{270}{}
+The brain can be studied as a network system in which nodes represent brain regions and the links connecting these regions are defined by white matter tracts. We used optimal control theory -- finding control laws for a given system such that a certain optimality criterion is achieved -- to predict and analyze multiple memory states from an energetic point of view. Our work quantified the role that the anatomical organization of the brain plays in constraining its dynamical response to external current stimulation. As a proof of concept, we tested which brain states and structural properties will efficiently improve memory encoding when stimulated. Furthermore, we also found that subjects affected by schizophrenia show diminished stability of minimum-energy working memory states.
+\n
+Related publications: [https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31041-1 White Matter Network Architecture Guides Direct Electrical Stimulation Through Optimal State Transitions ], [https://www.nature.com/articles/s41467-021-23694-9 Brain network dynamics during working memory are modulated by dopamine and diminished in schizophrenia]
+~~~
+
+\n
+\n
+
+== Network Control Theory Meets Neuroscience
+~~~
+{}{img_left}{Figures/Brain_network_logo.png}{Brain Network}{308}{196}{}
+The intersection between control theory and the study of the brain as a network system has the potential to overhaul our understanding of the brain dynamical wandering between different states. The possibility to steer the state of a network system through endogenous or exogenous stimuli -- controllability -- is determined by the network organization. By employing control-theoretic tools, we (i) provided prescriptive conditions for structural brain networks to be theoretically controllable, (ii) characterized the features that enable the simplification of nonlinear network systems, and (iii) demonstrated that structural brain networks possess distinct controllability profiles with respect to random networks. These methods and tools holds the promise to inform the development of novel treatments and stimulation schemes to treat multiple neurological disorders.
+\n
+Related publications: [https://ieeexplore.ieee.org/document/9039601 Conditions for Feedback Linearization of Network Systems ], [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8533416 Structural Controllability of Symmetric Networks], [https://ieeexplore.ieee.org/document/8431724 The Structured Controllability Radius of Symmetric (Brain) Networks]
+~~~
+
+= Software
+
+~~~
+== Functional Control of Oscillator Networks 
+
+Code to control functional patterns in oscillator networks and to replicate the results and figures in the associated paper is available {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-github"></i>}} \[[https://github.com/tommasomenara/functional_control here]\]
+\n
+{{
+<a href="https://zenodo.org/badge/latestdoi/332052527"><img src="https://zenodo.org/badge/332052527.svg" alt="DOI"></a>
+}}
+\n
+\n
+Citation:
+\n
+*T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Functional Control of Oscillator Networks/"\n
+Nature Communications, vol. 13, pp. 4721, Aug 2022
+\n
+~~~
+
+
+~~~
+== Optimal Control Theory for Brain Data
+
+Code to compute optimal and suboptimal control inputs and trajectories is available {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-github"></i>}} \[[https://github.com/ursbraun/network_control_and_dopamine here]\]
+\n
+\n
+Citation:
+\n
+U. Braun, A. Harneit, G. Pergola, *T. Menara*, A. Schaefer, R. F. Betzel, Z. Zang, J. I. Schweiger, K. Schwarz, J. Chen, G. Blasi, A. Bertolino, D. Durstewitz, F. Pasqualetti, E. Schwarz, A. Meyer-Lindenberg, D. S. Bassett, H. Tost\n
+"/Brain network dynamics during working memory are modulated by dopamine and diminished in schizophrenia/"\n
+Nature Communications, vol. 12, pp. 3478, Jun 2021
+\n
+~~~
+
+~~~
+== Feedback Linearization of Network Systems 
+
+Example code for feedback linearization of (nonlinear) network systems is available {{<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-github"></i>}} \[[https://github.com/tommasomenara/feedbacklinearization here]\]
+\n
+\n
+Citation:
+\n
+*T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Conditions for Feedback Linearization of Network Systems/"\n
+IEEE Control Systems Letters, vol. 4, no. 3, pp. 578-583, Jul 2020
+\n
+~~~

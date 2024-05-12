@@ -1,0 +1,169 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter
+== Publications
+
+
+== Honors and Awards
+. Nature Communications Editor's Highlights -- 2022 (top 50 papers in Applied Physics and Mathematics)
+. 2020 Roberto Tempo Best Paper Award
+. Best Student Paper Award at the 2019 American Control Conference
+
+\n
+== Select Publications
+\n
+~~~
+{}{raw}
+<a href="./Papers/TM-GB-DSB-FP-22.pdf"><img style='border:2px solid #0366d6' title="NatComm" src="./Figures/NatComm.png" alt="Paper Preview" width="255" style="vertical-align: -5px"></a>
+<a href="./Papers/TM-DSB-FP-18.pdf"><img style='border:2px solid #0366d6' src="./Figures/TAC_19.png" alt="Paper Preview" width="255" style="vertical-align: -5px"></a>
+<a href="./Papers/YQ-TM-SO-SC-FP-22.pdf"><img style='border:2px solid #0366d6' src="./Figures/OJCS_22.png" alt="Paper Preview" width="255"  style="vertical-align: -5px"></a>
+~~~
+
+\n
+
+== Thematic Deep Dives (Divulgative)
+. *T. Menara*, D. Taraborelli,
+"/Where does AI fit in the therapeutics discovery equation?/"\n
+ARTIS Ventures Blog, Mar 2023 ~ \M ~ \[[https://www.av.co/post/where-does-ai-fit-in-the-therapeutics-discovery-equation online]\]
+
+\n
+
+== Book Chapters
+.  "/Control for Societal-scale Challenges: Road Map 2030/"\n
+Eds. A. M. Annaswamy, K. H. Johansson, and G. J. Pappas\n
+IEEE Control Systems Society Publication, 2023 ~ \M ~ \[[https://ieeecss.org/control-societal-scale-challenges-roadmap-2030 online]\]
+
+\n
+
+== Journal Papers
+
+. M. McCreesh, *T. Menara*, J. Cortes\n
+"/Sufficient Conditions for Oscillations in Competitive Linear-Threshold Brain Networks/"\n
+IEEE Control Systems Letters, vol. 7, pp. 2886-2891, Jun 2023 ~ \M ~ \[[https://ieeexplore.ieee.org/document/10158338 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/MM-TM-JC-23.pdf pdf]\]
+\n
+\n
+. X. He, L. Caciagli, L. Parkes, J. Stiso, T. M. Karrer,
+J. Z. Kim, Z. Lu, *T. Menara*, F. Pasqualetti, M. R. Sperling, J. I. Tracy , D. S. Bassett\n
+"/Uncovering the biological basis of control energy: Structural and metabolic correlates of energy inefficiency in temporal lobe epilepsy/"\n
+Science Advances, vol. 8, no. 45, pp. eabn2293, Nov 2022 ~ \M ~ \[[https://www.science.org/doi/full/10.1126/sciadv.abn2293 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/XH-LC-LP-JS-TMK-JZK-ZL-TM-FP-MRS-JIT-DSB-22.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Functional Control of Oscillator Networks/"\n
+Nature Communications, vol. 13, pp. 4721, Aug. 2022 (*/{{<font color="7101C9"> <a href="https://go.nature.com/3a8W2TT"><span style="text-decoration: underline;">On Nature Portfolio Engineering</span></a></font>}}*/)\n
+Sep. 2022: {{<font color="ca0000"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-bullhorn"></i></font>}} {{<font color="ca0000"> Editor's Highlights</font>}} (top 50 papers in Applied Physics and Mathematics) ~ \M ~ \[[https://doi.org/10.1038/s41467-022-31733-2 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-DSB-FP-22.pdf pdf]\]
+\n
+\n
+. Y. Qin, *T. Menara*, S. Ching, S. Oymak, F. Pasqualetti\n
+"/Non-Stationary Representation Learning in Sequential Linear Bandits/"\n
+IEEE Open Journal of Control Systems, vol. 1, no. 1, pp. 41-56, May 2022 ~ \M ~ \[[https://ieeexplore.ieee.org/document/9783063 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/YQ-TM-SO-SC-FP-22.pdf pdf]\]
+\n
+\n
+. *T. Menara*, Y. Qin, D. S. Bassett, F. Pasqualetti\n
+"/Relay Interactions Enable Remote Synchronization in Networks of Phase Oscillators/"\n
+IEEE Control Systems Letters, vol. 6, pp. 500-505, 2022 ~ \M ~ \[[https://ieeexplore.ieee.org/document/9435762 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-YQ-DSB-FP-22.pdf pdf]\]
+\n
+\n
+. Y. Qin, *T. Menara*, D. S. Bassett, F. Pasqualetti\n
+"/Phase-Amplitude Couplinging in Neuronal Oscillator Networks/"\n
+Physical Review Research, vol. 3, no. 2, pp. 023218, 2021 ~ \M ~ \[[https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023218 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/YQ-TM-DSB-FP-21.pdf pdf]\]
+\n
+\n
+. U. Braun, A. Harneit, G. Pergola, *T. Menara*, A. Schaefer, R. F. Betzel, Z. Zang, J. I. Schweiger, K. Schwarz, J. Chen, G. Blasi, A. Bertolino, D. Durstewitz, F. Pasqualetti, E. Schwarz, A. Meyer-Lindenberg, D. S. Bassett, H. Tost\n
+"/Brain network dynamics during working memory are modulated by dopamine and diminished in schizophrenia/"\n
+Nature Communications, vol. 12, pp. 3478, Jun 2021 (*/ {{<font color="7101C9"> <a href="https://www.brainpost.co/weekly-brainpost/2021/6/15/dopamine-and-brain-network-dynamics-in-schizophrenia"><span style="text-decoration: underline;">On Brain Post</span></a></font>}} */) ~ \M ~ \[[https://www.nature.com/articles/s41467-021-23694-9 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/UB-AH-GP-TM-AS-RFB-et-al-2021.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Lisi, F. Pasqualetti, A. Cortese\n
+"/Brain Network Dynamics Fingerprints Are Resilient to Data Heterogeneity/"\n
+Journal of Neural Engineering, vol. 18, no. 2, pp. 026004, Apr 2021 ~ \M ~ \[[https://doi.org/10.1088/1741-2552/abd684 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GL-FP-AC-21.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Conditions for Feedback Linearization of Network Systems/"\n
+IEEE Control Systems Letters, vol. 4, no. 3, pp. 578-583, Jul 2020 ~ \M ~ \[[https://ieeexplore.ieee.org/document/9039601 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-DSB-FP-20.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Stability Conditions for Cluster Synchronization in Networks of Heterogeneous Kuramoto Oscillators/"\n
+IEEE Transactions on Control of Network Systems, vol. 7, no. 1, pp. 302-314, Mar 2020 ~ \M ~ \[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8663340 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-DSB-FP-19a.pdf pdf]\]
+\n
+\n
+. J. Stiso, A. N. Khambhati, *T. Menara*, A. E. Kahn, J. M. Stein, S. R. Das, R. Gorniak,
+J. Tracy, B. Litt, K. A. Davis, F. Pasqualetti, T. Lucas, D. S. Bassett\n
+"/White Matter Network Architecture Guides Direct Electrical Stimulation Through Optimal State Transitions/"\n
+Cell Reports, vol. 28, no. 10, pp. 2554-2566, Sep 2019 (*/ {{<font color="7101C9"> <a href="https://medium.com/penn-engineering/penn-researchers-model-optimizes-brain-stimulation-therapies-improving-memory-in-tests-f3ed517ec7cc"><span style="text-decoration: underline;">On Medium.com</span></a></font>}} */) ~ \M ~ \[[https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31041-1 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/JS-ANK-TM-AEK-JMS-SRD-RG-JT-BL-KAD-FP-TL-DSB-19.pdf pdf]\]
+\n
+\n
+. *T. Menara*, D. S. Bassett, F. Pasqualetti\n
+ "/Structural Controllability of Symmetric Networks/"\n
+IEEE Transactions on Automatic Control, vol. 64, no. 9, pp. 3740-3747, Sep 2019  ~ \M ~ \[[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8533416 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-DSB-FP-18.pdf pdf]\]
+
+\n
+
+
+== Peer-Reviewed Conference Proceedings
+
+
+. *T. Menara*, J. Cortes\n
+"/Control Strategies for Neural Populations with Rectified Activation Function/"\n
+IEEE Conference on Decision and Control, Cancun, Mexico, 2022  ~ \M ~ \[[https://ieeexplore.ieee.org/document/9992743 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-JC-22.pdf pdf]\]
+\n
+\n
+. Y. Qin, *T. Menara*, S. Oymak, S. Ching, F. Pasqualetti\n
+"/Representation Learning for Context-Dependent Decision-Making/"\n
+American Control Conference, Atlanta, Georgia, USA, 2022  ~ \M ~ \[[https://ieeexplore.ieee.org/document/9867204 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/YQ-TM-SO-SC-FP-22-ACC.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/A Framework to Control Functional Connectivity in the Human Brain/"\n
+IEEE Conference on Decision and Control, Nice, France, 2019\n
+ \[[http://ieeecss.org/awards/roberto-tempo-best-cdc-paper-award Roberto Tempo Best Paper Award Winner]\] {{<font color="ca0000"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-trophy"></i></font>}} ~ \M ~ \[[https://ieeexplore.ieee.org/document/9029223 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-DSB-FP-19c.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Exact and Approximate Stability Conditions for Cluster Synchronization of Kuramoto Oscillators/"\n
+American Control Conference, Philadelphia, USA, 2019\n
+\[[https://a2c2.org/media/exact-and-approximate-stability-conditions-cluster-synchronization-kuramoto-oscillators Best Student Paper Award Winner]\] {{<font color="ca0000"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><i class="fa fa-trophy"></i></font>}} ~ \M ~ \[[https://ieeexplore.ieee.org/document/8814837 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-DSB-FP-19b.pdf pdf]\]
+\n
+\n
+. *T. Menara*, V. Katewa, D. S. Bassett, F. Pasqualetti\n
+"/The Structured Controllability Radius of Symmetric (Brain) Networks/"\n
+American Control Conference, Milwaukee, USA, 2018 ~ \M ~ \[[https://ieeexplore.ieee.org/document/8431724 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-VK-DSB-FP-ACC18.pdf pdf]\]
+\n
+\n
+. *T. Menara*, G. Bianchin, M. Innocenti, F. Pasqualetti\n
+"/On the Number of Strongly Structurally Controllable Networks/"\n
+American Control Conference, Seattle, USA, 2017 ~ \M ~ \[[https://ieeexplore.ieee.org/document/7962976 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/TM-GB-MI-FP-ACC17.pdf pdf]\]
+\n
+\n
+. M. Laurino, *T. Menara*, A. Stella, M. Betta, A. Landi\n
+"/Procoagulant Control Strategies for the Human Blood Clotting Process/"\n
+IEEE Conference of the Engineering in Medicine and Biology Society, Milan, Italy, 2015 ~ \M ~ \[[https://ieeexplore.ieee.org/abstract/document/7319380 online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/ML-TM-AS-MB-AL-EMBS15.pdf pdf]\]
+
+\n
+
+== Peer-Reviewed Workshop Proceedings
+. Y. Qin, *T. Menara*, S. Oymak, S. Ching, F. Pasqualetti\n
+"/Non-Stationary Representation Learning in Sequential Multi-Armed Bandits/"\n
+ICML Workshop on Reinforcement Learning Theory, 2021 ~ \M ~ \[[https://lyang36.github.io/icml2021_rltheory/camera_ready/86.pdf online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/YQ-TM-SO-SC-FP-21.pdf pdf]\]
+
+\n
+
+== Posters
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/Analysis and Control of Collective Dynamics in Brain Networks of Oscillators/" ~ \M ~ \[[https://tommasomenara.com/Posters/Virtual_Poster_ICMN2020_Menara.pdf E-Poster]\]\n
+International Conference on Mathematical Neuroscience, Virtual, 2020
+\n
+\n
+. *T. Menara*, G. Baggio, D. S. Bassett, F. Pasqualetti\n
+"/From Cluster Synchronization of Oscillators to Functional Connectivity/" ~ \M ~ \[[https://tommasomenara.com/Posters/Poster_cluster_synchronization.pdf Poster]\]\n
+Computational Neuroimaging and Neuroengineering Symposium, University of California Riverside, 2018
+\n
+\n
+. *T. Menara*, Shi Gu, D. S. Bassett, F. Pasqualetti\n
+"/On Structural Controllability of Symmetric Brain Networks from One Region/" ~ \M ~ \[[https://tommasomenara.com/Posters/Poster_structural_controllability_brain_one_region_v2.pdf Poster]\]\n
+Workshop on Neurodynamics and Brain Control Engineering, Washington University in St. Louis, 2017
+
+== PhD Thesis
+. *T. Menara*\n
+"/Reverse Engineering Synchronization of Brain Network Dynamics: Controllability Properties and Functional Patterns/"\n
+University of California, Riverside, 2021 ~ \M ~ \[[https://escholarship.org/uc/item/0s09k4sc online]\]~\[[https://github.com/tommasomenara/tommasomenara.github.io/raw/master/Papers/Menara_phd_thesis.pdf pdf]\]
